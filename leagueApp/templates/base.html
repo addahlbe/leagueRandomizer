@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    {% block head %}{% endblock %}
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" href="{{STATIC_URL}}/logos/Favicon.png">
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}foundation.css">
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}normalize.css">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>
