@@ -7,10 +7,11 @@
 
 html,
 body {
+  height: 100%;
   font-size: 100%; }
 
 body {
-  /* background: url('../static/backgrounds/woodbackground.jpg') no-repeat center center fixed; */
+  background: url('../static/backgrounds/bg1.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,6 +22,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
+  height: 100%;
   color: #222222;
   padding: 0;
   margin: 0;
