@@ -1,6 +1,7 @@
 from django.contrib import admin
 from models import (
-    Hero)
+    Hero,
+    User)
 
 # Pimps out the admin page
 
@@ -18,4 +19,9 @@ class HeroAdmin(admin.ModelAdmin):
     search_fields = ('title',)
 
 
+class UserAdmin(admin.ModelAdmin):
+    search_fields = ('user_name',)
+
+
 admin.site.register(Hero, HeroAdmin)
+admin.site.register(User, UserAdmin)

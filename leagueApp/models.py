@@ -12,3 +12,11 @@ class Hero(models.Model):
     spell2 = models.CharField(max_length=100)
     spell3 = models.CharField(max_length=100)
     spell4 = models.CharField(max_length=100)
+
+
+class User(models.Model):
+    user_name = models.CharField(max_length=20)
+    password = models.CharField(max_length=30)
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+    email = models.CharField(max_length=30)
