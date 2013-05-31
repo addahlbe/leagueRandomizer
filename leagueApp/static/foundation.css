@@ -1172,6 +1172,7 @@ p {
   font-size: 1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
+  color: #321640;
   text-rendering: optimizeLegibility; }
   p aside {
     font-size: 0.875em;
@@ -1183,14 +1184,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #254117;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   line-height: 1.2125em; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: #254117;
     line-height: 0; }
 
 h1 {
@@ -1309,7 +1310,7 @@ blockquote {
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: #254117; }
 
 /* Microformats */
 .vcard {
@@ -2677,8 +2678,7 @@ form.custom {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #111111;
-  margin-bottom: 1.875em; }
+  background: #111111; }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }

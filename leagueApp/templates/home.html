@@ -3,5 +3,13 @@
 
 
 {% block content %}
-<p> This is a LOL Random Hero Generator </p>
+<div class="large-12 columns">
+    <p> This will be where our randomizer is! </p>
+    <h3> Check Off Which Heros You Own </h4>
+{% for hero in all_heros %}
+    <div class="large-4 columns">
+        <p> {{hero.name}} </p>
+    </div>
+{% endfor %}
+</div>
 {% endblock %}
